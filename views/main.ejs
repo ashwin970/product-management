@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+    <body class="new">
+        <div class="container1">
+            <div class="container_formcontainer1">
+                <h1 class="formheader"> Add Employee </h1>
+                <form action="/uploadFile" method="POST" enctype="multipart/form-data">
+                    <div class="form_group">
+                        <label class="label" for="employee id"> Employee ID </label>
+                        <input type="text" placeholder="Employee id" class="form-control" name="employeeid" id="employeeid" required>
+                    </div>
+                    <div class="form_group">
+                        <label class="label" for="name"> Name </label>
+                        <input type="text" placeholder="Name" class="form-control" name="employeename" id="employeename" required>
+                    </div>
+                    <div class="form_group">
+                        <label class="label" for="email"> E-mail </label>
+                        <input type="text" placeholder="Email" class="form-control" name="employeemail" id="employeemail" required>
+                    </div>
+                    <div class="form_group">
+                        <label class="label" for="phonenumber"> Phone Number </label>
+                        <input type="text" placeholder="Number" class="form-control" name="employeenumber" id="employeenumber" required>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <form action="/uploadFile" enctype="multipart/form-data" method="POST" >
+            <input type="file" class="filebtn" name="myFile">
+            <input type="submit" class="btn btn-outline-primary btn-sm" value="Upload">
+        </form>
+        <br><br>
+
+        <!-- <form action="/uploadMultiple" enctype="multipart/form-data" method="POST" > -->
+            <!-- <input type="file" name="myFiles" multiple> -->
+            <!-- <input type="submit" value="upload your files"> -->
+        <!-- </form> -->
+        <!-- <br><br> -->
+
+        <!-- <form action="/uploadPhoto" enctype="multipart/form-data" method="POST" > -->
+            <!-- <input type="file" name="myImage" accept="image/*"> -->
+            <!-- <input type="submit" value="upload photo"> -->
+        <!-- </form> -->
+        <!-- <br><br> -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    </body>
+</html>
