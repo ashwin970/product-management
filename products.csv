@@ -1,0 +1,9 @@
+_id,id,productid,cost,name,invoiceno,date,ownedby,purpose,workingcondition,__v
+5fdee93ab4003c34086f8bf9,1,1,1234567,ferrari,123,2000-03-12T00:00:00.000Z,owner,racing,Good,0
+5fdee985b4003c34086f8bfa,2,2,56758596576,bugatti,345,2000-05-31T00:00:00.000Z,owner,race,Good,0
+5fdeeadbee0a0c206c59ab52,3,3,647854856848,pagani,576474,2000-04-21T00:00:00.000Z,owner,race,Good,0
+5fdeeb09ee0a0c206c59ab53,4,4,48674,high,4747,2000-06-21T00:00:00.000Z,owner,traveling,Bad,0
+5fdef26f867fdc13f0a4b1dd,5,5,74439473298,Porsche,42,2000-03-21T00:00:00.000Z,owner,drift,Bad,0
+5fdf3bc356d6d046c0440e92,1,6,3553453,Ford mustang,7474,2000-04-12T00:00:00.000Z,owner,runner,Good,0
+5fdf3c0a56d6d046c0440e93,2,7,5325346,ford,856,2000-04-12T00:00:00.000Z,owner,racing,Good,0
+5fe81d9d2a18f15d4848a113,1,134,546353527,huge,2347,2000-05-13T00:00:00.000Z,owner,racing,Good,0
